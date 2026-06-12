@@ -14,7 +14,8 @@ import (
 )
 
 func main() {
-	fmt.Println("=== Order Processor - Level 2 (Context + Error Handling) ===")
+	// fmt.Println("=== Order Processor - Level 2 (Context + Error Handling) ===")
+	fmt.Println("=== Order Processor - Level 2 (Fan-In Pipeline & Poison Pill) ===")
 	numWorkers := 3
 	numOrders := 10
 
