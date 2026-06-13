@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Truongle68/go-practice/internal/domain/order"
-	"github.com/Truongle68/go-practice/worker"
+	"github.com/GoProOrg/go-practice/internal/domain/order"
+	"github.com/GoProOrg/go-practice/worker"
 )
 
 func main() {

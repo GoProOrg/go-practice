@@ -1,3 +1,3 @@
-module github.com/Truongle68/go-practice
+module github.com/GoProOrg/go-practice
 
-go 1.23
+go 1.26.2

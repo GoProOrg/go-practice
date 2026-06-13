@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Truongle68/go-practice/internal/domain/order"
+	"github.com/GoProOrg/go-practice/internal/domain/order"
 )
 
 var random = rand.New(rand.NewSource(time.Now().UnixNano()))
