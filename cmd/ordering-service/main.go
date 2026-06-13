@@ -9,12 +9,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Truongle68/go-practice/internal/domain/order"
-	"github.com/Truongle68/go-practice/worker"
+	"github.com/GoProOrg/go-practice/internal/domain/order"
+	"github.com/GoProOrg/go-practice/worker"
 )
 
 func main() {
-	fmt.Println("=== Order Processor - Level 2 (Context + Error Handling) ===")
+	// fmt.Println("=== Order Processor - Level 2 (Context + Error Handling) ===")
+	fmt.Println("=== Order Processor - Level 2 (Fan-In Pipeline & Poison Pill) ===")
 	numWorkers := 3
 	numOrders := 10
 
